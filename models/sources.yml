@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: raw  # The actual database name
+    schema: raw  # The schema name
+    tables:
+      - name: Customer
+        description: "A table containing customer data."
+      - name: Orders
+        description: "A table containing order data."
+      - name: Payments
+        description: "A table containing order data."
